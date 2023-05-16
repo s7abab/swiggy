@@ -32,7 +32,7 @@
     margin-top: 10px;
     margin-left: 10px;
 }
-.left nav .login{
+ .login{
     width: 50px;
     background-color: transparent;
     color: black;
@@ -242,19 +242,6 @@ background: #dcdcdc;
     width: 50%;
 }
 
-h1::after{
-    content: "";
-    animation: an 6s infinite;
-}
-
-@keyframes an {
-    0%{
-        content: "Hungry?";
-    }
-    50%{
-        content: "Late night at office?";
-    }
-    100%{
-        content: "Game night?";
-    }
+.login:hover{
+    color: #fc8019;
 }
