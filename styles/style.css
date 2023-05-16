@@ -242,19 +242,3 @@ background: #dcdcdc;
     width: 50%;
 }
 
-h1::after{
-    content: "";
-    animation: an 6s infinite;
-}
-
-@keyframes an {
-    0%{
-        content: "Hungry?";
-    }
-    50%{
-        content: "Late night?";
-    }
-    100%{
-        content: "Game night?";
-    }
-}
