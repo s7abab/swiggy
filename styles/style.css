@@ -1,0 +1,260 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    display: flex;
+}
+.main .left{
+    margin-top: 60px;
+}
+
+.main .left nav img{
+    margin-left: 30px;
+    width: 189px;
+    height: 55px;
+}
+
+.main .left nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;;
+}
+
+.left nav .sign{
+    width: 110px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.left nav .login{
+    width: 50px;
+    background-color: transparent;
+    color: black;
+    border: none;
+    margin-inline: 13px;
+    margin-top: 6px;
+    margin-left: 210px;
+    font-size: 17px;
+}
+
+.main .right-img{
+    margin-left: 54px;
+    width: 551px;
+    height: 540px;
+}
+
+.main .left .txt{
+    margin-left: 35px;
+    margin-top: 57px;
+}
+.left .txt h1{
+    font-size: 43px;
+}
+
+.left .txt p{
+    margin-top: 22px;
+    color: #686b78;
+}
+
+#p1{
+    font-size: 24px;
+}
+#p2{
+    font-size: 15px;
+}
+#p3{
+    font-size: 13px;
+
+}
+
+.section1 {
+    display: flex;
+}
+
+.section1 .find_food button{
+    margin-top: 35px;
+    height: 50px;
+    width: 140px;
+    background-color:#fc8019;
+    color: white;
+    border: none;
+}
+
+.input{
+    border: 1px solid #fc8019;
+    display: flex;
+    margin-top: 35px;
+}
+
+.input input{
+    width: 350px;
+    height: 21px;
+    border: none;
+    border-right: none;
+    padding: 11px;
+    font-size: 17px;
+}
+
+.input #locate_me{
+    width: 100px;
+    padding-bottom: 5px;
+    padding-right: 6px;
+    background-color: white;
+    color:black;
+    border: none;
+}
+
+.input #locate_me:hover{
+background: #dcdcdc;
+}
+
+.input #locate_me img{
+    width: 17px;
+    transform: translateY(4px);
+}
+
+.input #find_food{
+    color: white;
+    background-color: #fc8019;
+    border:none;
+}
+
+
+.card{
+    display: flex;
+    justify-content:center;
+    justify-content: space-around;
+    background-color: #2b1e16;
+    text-align: center;
+    color: white;
+    font-size: 9px;                    
+    padding-bottom: 113px;
+}
+
+.card .crd p{
+    font-size: 13px;
+}
+.card .crd img{
+    width: 38%;
+}
+
+.rest{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-left: 8px;
+}
+
+.rest img{
+    width: 180px;
+    height: 54px;
+}
+
+.rest .text{
+    margin-top: 140px;
+}
+
+.rest .text h1{
+    font-size: 40px;
+}
+
+.rest .text p{
+    margin-top: 11px;
+    color: #686b78;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-bottom: 150px;
+}
+
+.footer .lis{
+    margin-right: 10%;
+    margin-top: 90px;
+}
+
+.footer .lis h2{
+    font-size: 15px;
+}
+
+.last{
+    display: flex;
+}
+.last img{
+    width: 384px;
+    height: 489px;
+}
+
+.last #right{
+    margin-top: 80px;   
+}
+
+.playstore .img1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.footer2 p{
+    font-size: 18px;
+}
+
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-right: 0%;
+}
+
+.copyright img{
+    margin-left: 5%;
+    width: 145px;
+    size: 49px;
+}
+
+.social img{
+    margin-right: 20px;
+    margin-top: 40px;
+    padding-left: 5px;
+    width: 25px;
+    height: 25px;
+}
+#hr{
+    width: 50%;
+}
+
+h1::after{
+    content: "";
+    animation: an 6s infinite;
+}
+
+@keyframes an {
+    0%{
+        content: "Hungry?";
+    }
+    50%{
+        content: "Late night at office?";
+    }
+    100%{
+        content: "Game night?";
+    }
+}
