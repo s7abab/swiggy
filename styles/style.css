@@ -102,9 +102,10 @@
 }
 
 .input #locate_me{
+    margin-top: 5px;
+    margin-right: 10px;
     width: 100px;
-    padding-bottom: 5px;
-    padding-right: 6px;
+    height: 40px;
     background-color: white;
     color:black;
     border: none;
@@ -187,6 +188,10 @@ background: #dcdcdc;
 .footer .lis h2{
     font-size: 15px;
 }
+.footer .lis p:hover{
+    font-size: 15.1px;
+    font-weight: bolder;
+}
 
 .last{
     display: flex;
@@ -245,3 +250,17 @@ background: #dcdcdc;
 .login:hover{
     color: #fc8019;
 }
+
+#spin {
+    color:rgb(0, 0, 0);
+  }
+  #spin:after {
+    content:"";
+    animation: spin 6s linear infinite;
+  }
+  @keyframes spin {
+    0% { content:"Cooking gone wrong?";}
+    50% { content:"Hungry?";}
+    100% { content:"Unexpected guestes?";}
+  }
+
